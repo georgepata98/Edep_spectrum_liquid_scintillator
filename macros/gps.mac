@@ -1,0 +1,16 @@
+/gps/verbose 0
+#
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+#
+# Raza LS este diametru_sticla / 2 - grosime_sticla = 2.72 / 2 - 0.18 cm
+# Semi-inaltimea LS este inaltime_LS / 2 = (2.2 - 0.18) / 2 cm
+/gps/pos/radius 1.18 cm
+/gps/pos/halfz 1.01 cm
+#
+/gps/pos/centre 0 0 0 cm
+/gps/ang/type iso
+/gps/ene/type Mono
+/gps/ene/mono 1173.23 keV  # Sursa 1
+# /gps/ene/mono 1332.49 keV  # Sursa 2
