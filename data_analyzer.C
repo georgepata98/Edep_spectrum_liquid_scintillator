@@ -1,4 +1,6 @@
 {
+// Programul umple o singura histograma "combinedHisto" cu datele din histogramele dupa fiecare Run ai unei simulari.
+
     TCanvas *c1 = new TCanvas("c1", "canvas", 800, 600);
     TH1F *combinedHisto = nullptr;
 
